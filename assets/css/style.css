@@ -1,38 +1,37 @@
-.navbar {
-	margin: auto;
-	background: #777;
-	height: 10%;
-}
-.headname {
-	margin: auto;
-	float: left;
-	font-size: 100px;
-	font-weight: bolder;
-}
+
 ul {
-    list-style-type: none;
+    list-style-type: inline;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #dddddd; 
+    border-bottom-style: solid;
+	border-bottom-width: 1px
+    border-color: grey;
+ 
 }
-h3 {
-    list-style-type: none;
+h1 {
+    list-style-type: inline;
+    float: left;
     margin: 0;
-    padding: 0;
+    padding: 1% 5% 0% 10%;
     overflow: hidden;
+    background: #dddddd;
+    border-bottom-style: solid;
+	border-bottom-width: 1px
+    border-color: grey;
+ 
+ 
 }	
 
 li {
-    float: right;
-}
-
-li a {
+	list-style-type: inline;
+	float: right;
     display: block;
-    padding: 8px;
+    padding: 1.7% 5% 2% 5%;
     background-color: #dddddd;
 }
-a:hover {
+li:hover {
 	color: red;
     background-color: white;
     
