@@ -1,0 +1,39 @@
+.navbar {
+	margin: auto;
+	background: #777;
+	height: 10%;
+}
+.headname {
+	margin: auto;
+	float: left;
+	font-size: 100px;
+	font-weight: bolder;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd; 
+}
+h3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}	
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+a:hover {
+	color: red;
+    background-color: white;
+    
+}
